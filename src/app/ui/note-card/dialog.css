@@ -1,0 +1,18 @@
+.ntitle{
+  width:400px;
+  height:auto;
+  padding:10px;
+  float: left;
+  margin: 0px;
+}
+.nvalue{
+  padding:10px !important;
+  height: auto;
+  width:400px;
+}
+.ico{
+  padding:5px 10px;
+}
+.ico:hover{
+  color: #10B1ED;
+}

@@ -1,0 +1,28 @@
+
+.creator {
+  margin-bottom: 20px;
+  overflow:hidden;
+}
+
+.marginBoth{
+  margin: 0 20px;
+}
+
+.Top {
+  padding-top: 50px;
+}
+
+.notes{
+  word-wrap: break-word;
+}
+
+.notesGrid{
+  margin:0 5%;
+}
+
+.grid-item { width: 48%; }
+
+@media screen and (min-width: 768px) {
+  /* 5 columns for larger screens */
+  .grid-item { width: 24% !important; }
+}

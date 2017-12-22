@@ -1,0 +1,31 @@
+.Title{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.Para{
+  font-family: cursive;
+  padding-top: 10%
+}
+
+.Content{
+  padding:100px 20% 0 20%;
+}
+
+.BackgroundScreen{
+background: linear-gradient(#c2e59c, #64b3f4);
+min-height:100%;
+}
+.glyphicon-heart:hover{
+    color:red;
+}
+.glyphicon-headphones:hover{
+    color:black;
+}
+.img-responsive{
+  margin: 0 auto;
+}
+
+.headerimg{
+  background: url('../../../assets/background.jpg') no-repeat 50% 50% fixed;
+}

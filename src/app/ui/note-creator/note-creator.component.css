@@ -1,0 +1,47 @@
+
+    .title {
+      font-weight: bold;
+      color: rgba(0,0,0,0.8);
+    }
+    .full {
+      height: 100px;
+    }
+
+    .notescreater{
+      border : 1px lightgrey solid;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 3px;
+      padding:20px;
+    }
+
+    .creator {
+      margin-bottom: 20px;
+    }
+
+    .marginTop{
+      margin-top:10px;
+    }
+
+    .Left{
+      float:left;
+    }
+
+    .fullWidth{
+      width:100%;
+    }
+
+    .textDiv{
+      text-align: left;
+    }
+
+    .textDiv[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: lightgrey;
+    }
+    .example-form {
+      width: 500px;
+    }
+
+    .example-full-width {
+      width: 100%;
+    }

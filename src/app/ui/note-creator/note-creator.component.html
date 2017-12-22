@@ -1,0 +1,41 @@
+<div class= "col-mat-8 col-xs-12 col-mat-offset-2 Center notescreater creator">
+        <form>
+          <!--<input
+            type= "text"
+            [(ngModel)]= "newNote.title"
+            name= "newNoteTitle"
+            placeholder= "Title"
+            class= "Left title fullWidth marginTop"
+          >-->
+          <mat-input-container class="example-full-width">
+            <span mat-prefix class="material-icons">title&nbsp;</span>
+            <input mdInput placeholder="Title" [(ngModel)]= "newNote.title"
+            name= "newNoteTitle">
+          </mat-input-container>
+          <mat-input-container class="example-full-width">
+            <span mat-prefix class="material-icons">note_add&nbsp;</span>
+            <input mdInput placeholder="Take a note" [(ngModel)]="newNote.value"
+            name= "newNoteValue">
+          </mat-input-container>
+          <!-- (input)="newNote.value=$event.target.textContent" -->
+          <!--<div contenteditable
+            [textContent]="newNote.value"
+             (input)="newNote.value=$event.target.textContent"
+            name= "newNoteValue"
+            placeholder= "Take a note..."
+            class="Left fullWidth textDiv marginTop"
+            placeholder="Take a note...."
+          ></div>-->
+          <div class="col-xs-12">
+            <button
+              mat-raised-button
+              color="primary"
+              type= "submit"
+              class= "btn-light marginTop"
+              (click)="OnCreateNote()"
+             >
+              Add a Task
+            </button>
+          </div>
+        </form>
+</div>

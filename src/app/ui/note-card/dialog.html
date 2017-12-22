@@ -1,0 +1,9 @@
+<mat-list>
+  <mat-list-item>
+    <mat-icon>description</mat-icon>
+    <span mat-line ><h4 class="ntitle">{{note.title}}</h4>
+    <i class="material-icons pull-right ico" (click)=deleteNote()>delete</i>
+    <i class="material-icons pull-right ico">mode_edit</i></span>
+    <p mat-line class="nvalue">{{note.value}}</p>
+  </mat-list-item>
+</mat-list>

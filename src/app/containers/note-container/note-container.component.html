@@ -1,0 +1,13 @@
+<div class= "row Top marginBoth">
+  <div class="creator">
+<ts-note-creator (noteCreated)= "onNoteCreated($event)"  ></ts-note-creator>
+</div>
+<div class="grid notesGrid">
+  <ts-note-card
+  (noteDeleted)="onNoteDeleted($event)"
+  class= "grid-item notes"
+  [note]= note
+  *ngFor= "let note of notes"
+  ></ts-note-card>
+</div>
+</div>
